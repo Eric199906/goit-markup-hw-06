@@ -877,6 +877,7 @@ input:checked~label .conditions {
     }
     .footer-container{
         display: grid;
+        justify-content: center;
         grid-template-columns: 264px 208px;
         gap: 20px;
         margin: 0 auto;
