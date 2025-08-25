@@ -230,15 +230,15 @@ ol {
 .title-section {
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url("../images/Dark-bg@1.png");
+        url("../images/people-office.jpg");
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        -webkit-image-set(url("../images/Dark-bg@1.png") 1x,
-            url("../images/Dark-bg@2.png") 2x);
+        -webkit-image-set(url("../images/people-office.jpg") 1x,
+            url("../images/people-office@2.jpg") 2x);
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         image-set(url("../images/Dark-bg@1.png") 1x,
-            url("../images/Dark-bg@2.png") 2x);
+            url("../images/people-office@2.jpg") 2x);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -702,7 +702,15 @@ span.footer-span {
     width: 264px;
     margin-bottom: 16px;
 }
-
+.paragraph-foot {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
 .paragraph-soc {
     font-weight: 500;
     font-size: 16px;
@@ -835,11 +843,11 @@ span.footer-span {
     .div-logo {
         margin-right: 120px;
     }
-    .social-div{
-        margin-right: 80px;
-    }
     .email-div{
-        margin-right: 0;
+        padding-left: 80px;
+    }
+    .paragraph-foot{
+        margin-left: 70px;
     }
 }
 
