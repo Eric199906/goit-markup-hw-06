@@ -237,7 +237,7 @@ ol {
             url("../images/people-office@2.jpg") 2x);
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        image-set(url("../images/Dark-bg@1.png") 1x,
+        image-set(url("../images/people-office.jpg") 1x,
             url("../images/people-office@2.jpg") 2x);
     background-repeat: no-repeat;
     background-size: cover;
