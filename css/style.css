@@ -367,7 +367,7 @@ ol {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 72px 24px;
         align-items: stretch;
         justify-content: center;
     }
@@ -521,6 +521,7 @@ ol {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: stretch;
+        gap: 64px 24px;
     }
 }
 
